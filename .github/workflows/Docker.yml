@@ -18,4 +18,4 @@ jobs:
         uses: docker/login-action@v2.0.0
         with:
           username: leonardodebs
-          password: 
+          password: ${{ secrets.PASSWORD_DOCKER_HUB }}
